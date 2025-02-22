@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap";
+
+body {
+  overflow-y: hidden;
+}
+
+.main {
+  overflow-y: hidden;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.layout-content {
+  overflow-y: auto;
+}
+
+.dropdowns {
+  margin-top: 750px;
+  margin-bottom: 250px;
+
+  .scrollable {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+}
