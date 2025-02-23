@@ -16,14 +16,6 @@
 
 @import "bootstrap";
 
-body {
-  overflow-y: hidden;
-}
-
-.main {
-  overflow-y: hidden;
-}
-
 .layout-container {
   display: flex;
   flex-direction: column;
@@ -32,7 +24,10 @@ body {
 }
 
 .layout-content {
-  overflow-y: auto;
+  overflow-y: auto; 
+  background: gray;
+  padding: 20px;
+  height: 150vh;
 }
 
 .dropdowns {
